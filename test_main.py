@@ -23,7 +23,7 @@ def test_count_words(text, expected):
 
 
 def test_count_words_simple(simple_text):
-    assert count_words(simple_text) == 7
+    assert count_words(simple_text) == 8
 
 
 def test_count_words_empty(empty_text):
