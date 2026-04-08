@@ -1,5 +1,5 @@
 import pytest
-from main import count_words
+from main import count_words, count_sentences
 
 
 @pytest.fixture
@@ -28,8 +28,6 @@ def test_count_words_simple(simple_text):
 
 def test_count_words_empty(empty_text):
     assert count_words(empty_text) == 0
-
-from main import count_sentences
 
 
 @pytest.mark.parametrize("text, expected", [
