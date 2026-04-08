@@ -45,3 +45,4 @@ def test_count_sentences_simple(simple_text):
 
 def test_count_sentences_empty(empty_text):
     assert count_sentences(empty_text) == 0
+    
